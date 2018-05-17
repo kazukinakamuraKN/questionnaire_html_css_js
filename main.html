@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>アンケート</title>
+</head>
+<body>
+<form name="form1" action="">
+	<p class="titlename">名前＊</p>
+	<input id="name-input" type="text" name="name-input">
+	<br/>
+			<input id="name-check" name="check" type="checkbox">
+			ok?<span>＊</span>
+
+	<p class="titlename">趣味</p>
+	<input type="checkbox">ゲーム
+	<input type="checkbox">ドライブ
+
+	<p class="titlename">性別＊</p>
+	<input id="gender1" type="radio" name="gender">男性
+	<input id="gender2" type="radio" name="gender">女性
+
+	<p class="titlename">リスト</p>
+	<select multiple size=3>
+		<option value="lst1">リスト1リスト1リスト1リスト1</option>
+		<option value="lst2">リスト2リスト2リスト2リスト2</option>
+		<option value="lst3">リスト3リスト3リスト3リスト3</option>
+		<option value="lst4">リスト4リスト4リスト4リスト4</option>
+	</select>
+
+	<p class="titlename">メモ帳</p>
+	<textarea name="memo" cols="30" rows="5"></textarea>
+	<br/>
+
+	<button id="check" name="check">チェック</button>
+	<button name="copy">コピー</button>
+</form>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
